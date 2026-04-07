@@ -1,0 +1,175 @@
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e4eef8;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+    /*------------ HEADER ---------------*/
+
+
+header{
+    display:flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    vertical-align: baseline;
+    justify-content: space-between;
+}
+
+.logo{
+     
+    display: flex;
+    align-items: center;
+    color: #343f44;
+    font-size: 25px;
+}
+
+.logo i{
+    color: #2e86fd;
+    font-size: 45px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 350px;
+}
+   
+nav ul li{
+    font: 20px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.nav-button{
+    font-size: 20px;
+    border: 2px solid ;
+    padding: 10px 20px;
+    border-radius: 5px ;
+    background-color: transparent;
+    color: #2e86fd;
+    font-weight: bold;
+}
+
+
+
+/*------------ MAIN -------------------*/
+
+
+
+.presentation{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+       
+.pre-title{
+    color: #6f7880;
+    font-size: 15px;
+    font-weight: 700;
+}
+    
+.presentation h1{
+    font-size: 70px;
+    color: #343f44;
+    margin: 35px 0;
+}
+    
+.post-title{
+    color: #6f7880;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 0 50px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.suscribe-form{
+    width: 700px;
+}
+
+.suscribe-form input{
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 5px;
+}
+    
+.button-suscribe{
+    width: 200px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    border-radius: 5px;
+}
+    
+.post-title-2{
+    font-size: 18px;
+    color: #898d92;
+    font-weight: 700;
+}
+
+.features{
+    display: flex;
+    margin-top: 100px;
+    width: 100%; 
+    gap: 25px;
+    justify-content: space-between;
+
+}
+
+.feature{
+    width: 350px;
+    height: 150px;
+    
+    display: flex;
+    align-items:start;
+}
+
+.material-icons{
+    
+    margin: 0;
+    
+    height: auto;
+    
+}
+    
+.feature i{
+    width: 50px;
+    color: #2e86fd;
+    font-size: 55px;
+    margin-right: 25px;
+    
+}
+
+.feature h4{
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.feature p{
+    font-size: 18px;
+    color: #6f7880;
+    font-weight: 700;
+    line-height:35px;
+}
+
+
+    
